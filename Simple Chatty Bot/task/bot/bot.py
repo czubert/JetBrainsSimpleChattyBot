@@ -13,9 +13,9 @@ def guess_age():
     print('Let me guess your age.')
     print('Enter remainders of dividing your age by 3, 5 and 7.')
 
-    rem3 = int(input())
-    rem5 = int(input())
-    rem7 = int(input())
+    rem3 = int(input("Reminder of dividing age by 3: "))
+    rem5 = int(input("Reminder of dividing age by 5: "))
+    rem7 = int(input("Reminder of dividing age by 7: "))
 
     age = (rem3 * 70 + rem5 * 21 + rem7 * 15) % 105
 
@@ -55,7 +55,7 @@ def end():
     print('Congratulations, have a nice day!')
 
 
-greet('Aid', '2020')  # change it as you need
+greet('Aid', '2020')
 remind_name()
 guess_age()
 count()
